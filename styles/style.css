@@ -16,7 +16,7 @@ body{
 /* START HEADER SECTION STYLE */
 
 header {
-    width: 1060px;
+    max-width: 1060px;
     margin: 0 auto;
    
 }
@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
 }
 
-#nav-ber .menu-item h3 {
+#nav-ber .nav-title h3 {
     font-size: 36px;
     font-weight: 700;
     color: rgb(230, 83, 60);
@@ -66,6 +66,10 @@ header {
     border: none;
     border-radius: 45px;
 
+}
+
+.hamburger-menu{
+    display: none;
 }
 
 /* END HEADER SECTION STYLE */
