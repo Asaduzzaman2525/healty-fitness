@@ -19,4 +19,69 @@
     #nav-ber .menu-item ul{
         display: none;
     }
+
+    #banner{
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+    }
+    .banner-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sty{
+        margin-left: 105px;
+    }
+
+    .banner-content h1{
+        font-size: 36px;
+        font-weight: 900;
+        
+    }
+    .banner-content .shape {
+        font-size: 70px;
+        top: 25px;
+    }
+    .banner-content p {
+        width: 330px;
+        letter-spacing: 1.3px;
+        line-height: 1.5;
+    }
+    .btn{
+        display: flex;
+    }
+    .banner-content .btn-1 {
+        display: none;
+    }
+    .banner-content .btn-hide {
+        display: block;
+        padding: 25px 64px;
+    }
+    
+    .banner-content .btn-2 {
+        padding: 22px 40px;
+        margin-left: 15px;
+    }
+
+    .banner-image img{
+        margin-top: 50px;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+    .banner-image .free-videos {
+        width: 180px;
+        height: 90px;
+        top: 120px;
+        left: 220px;
+    }
+
+    .banner-image .videos-tutorial{
+        width: 200px;
+        height: 80px;
+        top: 340px;
+        left: -20px;
+        display: flex;
+        gap: 10px;
+    }
 }
