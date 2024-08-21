@@ -84,4 +84,11 @@
         display: flex;
         gap: 10px;
     }
+
+    .banner-image .videos-tutorial .circle .play {
+        display: block;
+        position: absolute;
+        top: 32px;
+        left: 37px;
+    }
 }

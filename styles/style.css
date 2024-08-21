@@ -222,6 +222,10 @@ header {
     
 }
 
+.banner-image .videos-tutorial .circle .play {
+    display: none;
+}
+
 .banner-image .videos-tutorial h3{
     font-size: 24px;
     font-weight: 900;
